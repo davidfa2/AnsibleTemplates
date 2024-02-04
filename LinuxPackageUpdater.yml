@@ -5,6 +5,6 @@
 
   tasks:
     - name: APT Package Updater
-      apt:
+      yum:
         upgrade: yes
         update_cache: yes
